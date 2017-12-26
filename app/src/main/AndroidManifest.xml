@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     package="uk.co.portalcomputing.giftsync">
-
+<uses-permission android:name="android.permission.READ_CONTACTS"/>
     <application
         android:allowBackup="true"
         android:fullBackupContent="@xml/backup_descriptor"
@@ -20,7 +20,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".LoginOrReg" />
-        <activity android:name=".MainActivity"></activity>
+        <activity android:name=".MainActivity"/>
     </application>
 
 </manifest>
